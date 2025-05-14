@@ -85,7 +85,7 @@ form {
 }
 
 .input-unit > input {
- flex: 1;
+ width: 80%;
 }
 
 .input-unit span {
