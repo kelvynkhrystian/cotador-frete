@@ -75,8 +75,13 @@ form {
 
 .input-unit {
   display: flex;
+  justify-content: space-between;
   align-items: center;
   gap: 0.4rem;
+}
+
+.input-unit > input {
+ flex: 1;
 }
 
 .input-unit span {
