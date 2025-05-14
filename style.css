@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 
-body {
+/* body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   background: url("images/caminhao2.gif") no-repeat center center fixed;
   background-size: cover;
@@ -12,17 +12,17 @@ body {
   display: flex;
   justify-content: center;
   padding: 2rem 1.5rem;
-}
+} */
 
-.frete-container {
+/* .frete-container {
   max-width: 720px;
-  background: rgba(255, 255, 255, 0.85); /* levemente translúcido kk */
-  backdrop-filter: blur(6px); /* efeito fosco */
+  background: rgba(255, 255, 255, 0.85); 
+  backdrop-filter: blur(6px);
   margin: 2rem 1rem;
-  padding: 2rem;
+  padding: 2rem 1rem;
   border-radius: 12px;
   box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
-}
+} */
 
 
 .cabecalho {
