@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #f3f6fa;
+  color: #333;
+  padding: 2rem;
+}
+
+.frete-container {
+  max-width: 720px;
+  background: #fff;
+  margin: 2rem auto;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+}
+
+.cabecalho {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.cabecalho img {
+  max-width: 120px;
+  margin-bottom: 1rem;
+}
+
+.cabecalho h1 {
+  font-size: 1.8rem;
+  color: #004d99;
+  margin-bottom: 0.5rem;
+}
+
+.cabecalho p {
+  font-size: 0.95rem;
+  color: #666;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.form-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.form-group {
+  flex: 1;
+  min-width: 140px;
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group label {
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+  font-size: 0.9rem;
+}
+
+.form-group input {
+  padding: 0.6rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 0.95rem;
+}
+
+.input-unit {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+
+.input-unit span {
+  background: #f0f0f0;
+  padding: 0.6rem 0.8rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 0.85rem;
+}
+
+.full {
+  width: 100%;
+}
+
+.btn-cotar {
+  background-color: #0052cc;
+  color: #fff;
+  font-weight: bold;
+  border: none;
+  padding: 0.8rem;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn-cotar:hover {
+  background-color: #003d99;
+}
+
+
