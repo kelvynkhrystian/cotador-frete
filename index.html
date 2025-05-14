@@ -1,12 +1,76 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hello World</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Calculadora de Frete</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-    <h1>Hello, World!</h1>
-    <p>Seja bem-vindo ao projeto de cotação de frete 🚚</p>
+  <main class="frete-container">
+    <h1>Calculadora de Fretes</h1>
+    <p>Cotação nas principais transportadoras</p>
+
+    <form id="form-cotacao">
+      <!-- Área de CEPs -->
+      <section class="form-row">
+        <div class="form-group">
+          <label for="cep-origem">CEP de origem</label>
+          <input type="text" id="cep-origem" name="cep-origem" placeholder="00000-000" required />
+        </div>
+
+        <div class="form-group">
+          <label for="cep-destino">CEP de destino</label>
+          <input type="text" id="cep-destino" name="cep-destino" placeholder="00000-000" required />
+        </div>
+      </section>
+
+      <!-- Área de Dimensões do pacote -->
+      <section class="form-row">
+        <div class="form-group">
+          <label for="altura">Altura</label>
+          <div class="input-unit">
+            <input type="number" id="altura" name="altura" required />
+            <span>cm</span>
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label for="largura">Largura</label>
+          <div class="input-unit">
+            <input type="number" id="largura" name="largura" required />
+            <span>cm</span>
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label for="comprimento">Comprimento</label>
+          <div class="input-unit">
+            <input type="number" id="comprimento" name="comprimento" required />
+            <span>cm</span>
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label for="peso">Peso</label>
+          <div class="input-unit">
+            <input type="number" id="peso" name="peso" step="0.01" required />
+            <span>kg</span>
+          </div>
+        </div>
+      </section>
+
+      <!-- Valor da carga -->
+      <section class="form-group full">
+        <label for="valor">Valor da carga</label>
+        <div class="input-unit">
+          <span>R$</span>
+          <input type="number" id="valor" name="valor" step="0.01" />
+        </div>
+      </section>
+
+      <button type="submit" class="btn-cotar">CALCULAR</button>
+    </form>
+  </main>
 </body>
 </html>
