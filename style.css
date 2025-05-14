@@ -6,19 +6,23 @@
 
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  background: #f3f6fa;
+  background: url("images/caminhao2.gif") no-repeat center center fixed;
+  background-size: cover;
+  background-color: rgba(255, 255, 255, 0.2); /* branco transparente */
   color: #333;
   padding: 2rem;
 }
 
 .frete-container {
   max-width: 720px;
-  background: #fff;
-  margin: 2rem auto;
+  background: rgba(255, 255, 255, 0.85); /* levemente translúcido kk */
+  backdrop-filter: blur(6px); /* efeito fosco */
+  margin: 2rem 1rem;
   padding: 2rem;
   border-radius: 12px;
   box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
 }
+
 
 .cabecalho {
   text-align: center;
