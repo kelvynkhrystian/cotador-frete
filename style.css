@@ -6,7 +6,6 @@
 
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  background-color: rgba(255, 255, 255, 0.2); /* branco transparente */
   background: url("images/caminhao2.gif") no-repeat center center fixed;
   background-size: cover;
   color: #333;
@@ -116,7 +115,6 @@ form {
 .btn-cotar:hover {
   background-color: #003d99;
 }
-
 
 #valor {
   flex: 1;
